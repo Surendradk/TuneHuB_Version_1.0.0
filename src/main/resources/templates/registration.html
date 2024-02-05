@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" th:href="@{/css/register.css}">
+</head>
+<body>
+	<div class="bg">
+	    <h1>#Create Account</h1> 
+	   <form action="register" method="post">
+		  <label>User Name : </label>
+		  <input type="text" name="username" class="text"/>
+		  <br>
+		  <label>Email : </label>
+		  <input type="email" name="email" class="text"/>
+		  <br>
+		  <label>Password : </label>
+		  <input type="password" name="password" class="text"/>
+		  <br>
+		  <div>
+		     <p>Gender : <p>
+			  <div class="gender">
+				  <input type="radio" name="gender" value="male" />
+				  <label>Male</label>
+				  <input type="radio" name ="gender" value="female" />
+				  <label>Female</label>
+				  <input type="radio" name = "gender" value="other" />
+				  <label>Others</label>
+			  </div>
+		  </div>
+		  <br>
+		  <div>
+		    <p>Role : </p>
+			  <div class="genderr">
+			     <div class="opt">
+			        <input type="radio" name ="role" value="admin" />
+			        <label>Admin</label>
+			     </div>
+			     <div class="opt">
+			       <input type="radio" name = "role" value="customer" />
+			        <label>Customer</label>
+			     </div>
+			    </div>
+		  </div>
+		  <br>
+		  <label>Address : </label>
+		  <br>
+		  <textarea name ="address" rows="" cols="" class="text"></textarea>
+		  <br>
+		  <button type="submit">SUBMIT</button>
+	 </form>
+	</div>
+</body>
+</html>

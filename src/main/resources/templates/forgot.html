@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" th:href="@{/css/forgot.css}">
+</head>
+<body>
+  <form action="updatePassword" method="post">
+      <h2>Reset-password</h2>
+      <label>Enter email</label>
+      <br>
+      <input type="email" name="email">
+      <br>
+      <label>Enter password</label>
+      <br>
+      <input type="password" name="password">
+      <br>
+      <label>confirm password</label>
+      <br>
+      <input type="password" name="conformPassword">
+      <br>
+      <button type="submit">submit</button>
+   </form>
+
+</body>
+</html>

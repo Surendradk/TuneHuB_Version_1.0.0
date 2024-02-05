@@ -1,0 +1,89 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+ body {
+      font-family: 'Arial', sans-serif;
+      background-image:url(https://res.cloudinary.com/dj9vi0ty1/image/upload/v1706957294/simon-weisser-phS37wg8cQg-unsplash_mj7nie.jpg);
+      background-size:cover;
+      width:100%;
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      font-size:25px;
+    }
+
+    .bg{
+      background-color:transparent;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      height:250px;
+      width:500px;
+      color:#fff;
+      border:5px solid orange;
+      animation: mymove 2s infinite;
+      text-align:center;
+    }
+    @keyframes mymove{
+      50%{
+       box-shadow: 30px 50px 80px purple;
+       border:10px solid #fff;
+      }
+    }
+    
+    label{
+    font-size:20px;
+    margin-top:10px;
+     
+    }
+    
+    input {
+    border:none;
+    border-bottom:3px solid #fff;
+    background-color:transparent;
+    width:90%;
+    margin-bottom:30px;
+    font-size:20px;
+    color:#fff;
+    }
+    
+    h2{
+    color:#fff;
+    text-align:center;
+    font-style:italic;
+    font-weight:bold;
+    margin-bottom:30px;
+    }
+    
+    button{
+      margin:10px;
+      display: inline-block;
+      padding: 10px 80px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      background-color:green; /* Yellow color */
+      color: #fff; /* Black text color */
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    /* Add hover effect */
+    button:hover {
+      background-color:skyblue; /* Darker yellow on hover */
+    }
+    
+    a{
+    color:#fff;
+    text-decoration:none;
+    font-size:30px;
+    }
+    
+    
+    

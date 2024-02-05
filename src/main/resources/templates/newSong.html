@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Song</title>
+<link rel="stylesheet" th:href="@{/css/addSong.css}">
+</head>
+<body>
+   <form action="addSong" method="post">
+        <h2>Add-Songs</h2>
+   		<label>Song Name :</label>
+   		<input type="text" name="name" />
+   		<br>
+   		
+   		<label>Song Artist : </label>
+   		<input type="text" name="artist" />
+   		<br>
+   		
+   		<label>Song Genre : </label>
+   		<input type="text" name="genre" />
+   		<br>
+   		
+   		<label>Song Link : </label>
+   		<input type="text" name="link" />
+   		<br>
+   		 
+   		 <button type="submit">ADD SONG</button>
+   </form>
+</body>
+</html>

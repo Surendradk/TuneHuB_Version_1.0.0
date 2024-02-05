@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+body{
+	background-image:url(https://res.cloudinary.com/dj9vi0ty1/image/upload/v1706957307/marcela-laskoski-YrtFlrLo2DQ-unsplash_njugfw.jpg);
+	background-size:cover;
+	width:100%;
+	display:flex;
+	justify-content:center;
+}
+
+.bg-container{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	margin-top:90px;
+	background:#fff;
+	height:800px;
+	width:1000px;
+	border-radius:10px;
+	text-align:center;
+	box-shadow: 10px 30px 30px #fff;
+}
+
+.card-container{
+	margin-left:220px;
+	background:pink;
+	height:auto;
+	width:500px;
+	color:#fff;
+	font-size:30px;
+	border-radius:10px;
+	text-align:center;
+	padding:20px;
+	box-shadow:10px 10px  10px lightpink;
+}
+
+button{
+	background-color:rgb(0, 255, 64);
+	padding:10px 120px;
+	border-radius:20px;
+	font-size:20px;
+	font-weight:bold;
+	font-style:italic;
+	margin-top:40px;
+	border-color:#fff;
+}
+.card-container,button:hover{
+	font-size:30px;
+}
+h1{
+	color:red;
+	font-style:italic;
+	font-size:60px;
+	font-weight:bold;
+}

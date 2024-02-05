@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" th:href="@{/css/login.css}">
+
+</head>
+<body>
+  <div id="bg">
+     <div class="background">
+      <h2>#Login -Home</h2>
+	  <form action="validate" method="post"> 
+		  <label>Enter email</label>
+		  <br>
+		  <input type="email" name="email" required  class="box"/>
+		  <br>
+		  <label>Enter password</label>
+		  <br>
+		  <input type="password" name="password" class="box"/>
+		  <br>
+		  <div class="check-box">
+		     <div>
+		        <input type="checkbox" />
+		        <label>Save login information</label>
+		        <a href="forgot"> Forgot password?</a>
+		     </div>
+		  </div>
+		  <button type="submit">Log in</button>
+		  <a href="registration">Don't have an account? Create account</a>
+	   </form>
+      </div>
+  </div>
+</body>
+</html>
